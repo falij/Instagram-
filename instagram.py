@@ -118,7 +118,7 @@ def args():
     return args.parse_args()
 
 
-if __name__ == '__main__':
+if __name_ == '__main__':
 
     if int(python_version()[0]) < 3:
         print('[!] Please use Python 3')
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
     arugments = args()
     mode = arugments.mode
-    username = arugments.username
-    passlist = arugments.passlist
+    username = katya_kyrysyna
+    passlist = 
     is_color = True if not arugments.color else False
     Engine(username, modes[mode], passlist, is_color).start()
